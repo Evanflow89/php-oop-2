@@ -7,7 +7,8 @@ class Products {
     public $animal_type;
 
 
-    public function__construct($name, $price, $quantity, $animal_type); {
+    public function__construct(string $_name,string $_price, int $_quantity,string $_animal_type)
+    {
 
     this->name = $_name;
     this->price = $_price;
